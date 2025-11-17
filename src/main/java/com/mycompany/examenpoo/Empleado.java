@@ -1,3 +1,5 @@
+package com.mycompany.examenpoo;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -12,7 +14,7 @@ public abstract class Empleado {
     private String Nombre;
     private int edad;
     private double salario;
-    private int Nhijos;
+    int Nhijos;
 
     public Empleado() {
     }

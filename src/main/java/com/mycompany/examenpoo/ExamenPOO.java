@@ -4,6 +4,7 @@
 
 package com.mycompany.examenpoo;
 
+
 /**
  *
  * @author DELL
@@ -11,6 +12,12 @@ package com.mycompany.examenpoo;
 public class ExamenPOO {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Reportable e1 = new Desarrollador("Java", 0, "Israel", 18, 900, 2);
+        Reportable e2 = new Gerente("María", 40, 1500, 3, 4);
+
+        System.out.println(e1.generarReporte());
+        System.out.println(e2.generarReporte());
     }
-}
+    }
+
+
