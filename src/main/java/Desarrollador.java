@@ -24,9 +24,9 @@ public class Desarrollador extends Empleado implements Reportable{
 
     @Override
     public String generarReporte() {
-        return "Desarrollador: " + getNombre()+"\n" +
+        return "Desarrollador: " + "Nombre: " + getNombre()+"\n" +
                 "edad: " + getEdad()+"\n" +
-                "nhijos: " + getNhijos() + "\n" +
+                "Bonificacion: " + calcularBonificacion() + "\n" +
                 "lenguaje: " + lenguajeProgramacion;
     }
 
